@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.RegistrationFormApp" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="colorPrimary">@color/blue_accent</item>
+        <item name="colorPrimaryDark">@color/blue_dark</item>
+        <item name="colorAccent">@color/white</item>
+    </style>
+    
+    <style name="testTheme" parent="Base.Theme.RegistrationFormApp">
+        <item name="colorPrimary">#FF0000</item>
+        <item name="colorOnPrimary">@color/black</item>
+    </style>
+
+    <style name="Theme.RegistrationFormApp" parent="Base.Theme.RegistrationFormApp" />
+</resources>
